@@ -1,0 +1,111 @@
+{
+  "uid" : "58fcf57360d2318",
+  "name" : "test_add_product_to_cart_two",
+  "fullName" : "test_scripts.test_add_product_to_cart.Test_product#test_add_product_to_cart_two",
+  "historyId" : "69aea810a049c4349b5e2465421e2cb6",
+  "time" : {
+    "start" : 1532768789540,
+    "stop" : 1532768803675,
+    "duration" : 14135
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test_scripts.test_add_product_to_cart.Test_product object at 0x0A7912B0>\nrequest = <FixtureRequest for <Function 'test_add_product_to_cart_two'>>\n\n    def test_add_product_to_cart_two(self, request):\n        contact_number = excel.get_cell_value(constants.EXCEL_FILE_PATH, 'Login', 0, 'Username')\n        password = excel.get_cell_value(constants.EXCEL_FILE_PATH, 'Login', 0, 'Password')\n    \n        login = get_login_page(request.node.driver)\n        login.click_on_sign_in()\n        login.enter_email_or_number(contact_number)\n        login.enter_password(password)\n    \n>       assert False\nE       assert False\n\ntest_scripts\\test_add_product_to_cart.py:39: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "set_environment",
+    "time" : {
+      "start" : 1532768659718,
+      "stop" : 1532768659719,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1532768758285,
+      "stop" : 1532768789537,
+      "duration" : 31252
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setUp::teardown",
+    "time" : {
+      "start" : 1532768803743,
+      "stop" : 1532768806496,
+      "duration" : 2753
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e425982df7acb2ce",
+      "name" : "test_add_product_to_cart_two",
+      "source" : "e425982df7acb2ce.png",
+      "type" : "image/png",
+      "size" : 46292
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "2660-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_add_product_to_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3d4d9ab276f5552d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532757588396,
+        "stop" : 1532757601864,
+        "duration" : 13468
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "58fcf57360d2318.json",
+  "parameterValues" : [ ]
+}

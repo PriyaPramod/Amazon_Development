@@ -1,0 +1,4 @@
+{
+  "test_scripts/test_add_product_to_cart.py::Test_product::()::test_add_product_to_cart": true,
+  "test_scripts/test_add_product_to_cart.py::test_add_product_to_cart": true
+}

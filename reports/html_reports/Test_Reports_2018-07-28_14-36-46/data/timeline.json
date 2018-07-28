@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "TY-Pramod-Personal",
+    "children" : [ {
+      "name" : "2660-MainThread",
+      "children" : [ {
+        "name" : "test_add_product_to_cart",
+        "uid" : "f8847a0cc3417639",
+        "parentUid" : "7efd9fcf86bc1f165c22b70a7e6532b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1532768705040,
+          "stop" : 1532768721583,
+          "duration" : 16543
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_product_to_cart_two",
+        "uid" : "ca53ccdb3895e4de",
+        "parentUid" : "7efd9fcf86bc1f165c22b70a7e6532b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1532768789540,
+          "stop" : 1532768803675,
+          "duration" : 14135
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_product_to_cart_one",
+        "uid" : "157a4d8c13503ed",
+        "parentUid" : "7efd9fcf86bc1f165c22b70a7e6532b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1532768739761,
+          "stop" : 1532768755854,
+          "duration" : 16093
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7efd9fcf86bc1f165c22b70a7e6532b7"
+    } ],
+    "uid" : "5c13f69d55b753c6c5217a9eaf9294e7"
+  } ]
+}

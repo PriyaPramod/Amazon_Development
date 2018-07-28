@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"failed","test_scripts.test_add_product_to_cart.Test_product#test_add_product_to_cart","16543",""
+"failed","test_scripts.test_add_product_to_cart.Test_product#test_add_product_to_cart_two","14135",""
+"passed","test_scripts.test_add_product_to_cart.Test_product#test_add_product_to_cart_one","16093",""

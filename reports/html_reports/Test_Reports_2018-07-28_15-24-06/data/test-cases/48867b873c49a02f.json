@@ -1,0 +1,89 @@
+{
+  "uid" : "48867b873c49a02f",
+  "name" : "test_add_product_to_cart_one",
+  "fullName" : "test_scripts.test_add_product_to_cart.Test_product#test_add_product_to_cart_one",
+  "historyId" : "55b6d67b1404e7d00f3b7fb95938c433",
+  "time" : {
+    "start" : 1532757556831,
+    "stop" : 1532757570451,
+    "duration" : 13620
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "set_environment",
+    "time" : {
+      "start" : 1532757315504,
+      "stop" : 1532757315504,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1532757522042,
+      "stop" : 1532757556829,
+      "duration" : 34787
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setUp::teardown",
+    "time" : {
+      "start" : 1532757570467,
+      "stop" : 1532757574707,
+      "duration" : 4240
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "10596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_add_product_to_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48867b873c49a02f.json",
+  "parameterValues" : [ ]
+}

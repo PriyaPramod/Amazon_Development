@@ -1,0 +1,91 @@
+{
+  "uid" : "36b57974bc33ba1d",
+  "name" : "test_add_product_to_cart",
+  "fullName" : "test_scripts.test_add_product_to_cart.Test_product#test_add_product_to_cart",
+  "historyId" : "e40ccc6143a0376e855221f9cb5a8cce",
+  "time" : {
+    "start" : 1532757353187,
+    "stop" : 1532757519132,
+    "duration" : 165945
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'text'",
+  "statusTrace" : "self = <test_scripts.test_add_product_to_cart.Test_product object at 0x0A8E0B70>\nrequest = <FixtureRequest for <Function 'test_add_product_to_cart'>>\n\n    def test_add_product_to_cart(self, request):\n        contact_number = excel.get_cell_value(constants.EXCEL_FILE_PATH, 'Login', 0, 'Username')\n        password = excel.get_cell_value(constants.EXCEL_FILE_PATH, 'Login', 0, 'Password')\n        product_name = excel.get_cell_value(constants.EXCEL_FILE_PATH, 'Login', 0, 'ProductName')\n        message = excel.get_cell_value(constants.EXCEL_FILE_PATH, 'Login', 0, 'successMessage')\n    \n        login = get_login_page(request.node.driver)\n        login.click_on_sign_in()\n        login.enter_email_or_number(contact_number)\n        login.enter_password(password)\n        dashboard = get_dashboard_page(request.node.driver)\n        dashboard.enter_the_product(product_name)\n        dashboard.click_on_mobile()\n        dashboard.click_on_add_to_cart()\n>       status_message = dashboard.get_success_message()\n\ntest_scripts\\test_add_product_to_cart.py:21: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <source.page_classes.dashboad_page.Dashboard_Page object at 0x0A988970>\n\n    def get_success_message(self):\n        success_message = self.findElement(*self.__successMessage)\n>       return success_message.text\nE       AttributeError: 'NoneType' object has no attribute 'text'\n\nsource\\page_classes\\dashboad_page.py:26: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "set_environment",
+    "time" : {
+      "start" : 1532757315504,
+      "stop" : 1532757315504,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1532757315504,
+      "stop" : 1532757353110,
+      "duration" : 37606
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setUp::teardown",
+    "time" : {
+      "start" : 1532757519605,
+      "stop" : 1532757522030,
+      "duration" : 2425
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "10596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_add_product_to_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36b57974bc33ba1d.json",
+  "parameterValues" : [ ]
+}

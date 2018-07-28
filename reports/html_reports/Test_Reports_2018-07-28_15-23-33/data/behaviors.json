@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_add_product_to_cart",
+    "uid" : "d746ed1736175501",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1532768705040,
+      "stop" : 1532768721583,
+      "duration" : 16543
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_add_product_to_cart_one",
+    "uid" : "a8af346e1148baaf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1532768739761,
+      "stop" : 1532768755854,
+      "duration" : 16093
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_add_product_to_cart_two",
+    "uid" : "58fcf57360d2318",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1532768789540,
+      "stop" : 1532768803675,
+      "duration" : 14135
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

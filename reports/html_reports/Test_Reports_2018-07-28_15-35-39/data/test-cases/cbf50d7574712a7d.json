@@ -1,0 +1,204 @@
+{
+  "uid" : "cbf50d7574712a7d",
+  "name" : "test_add_product_to_cart_one",
+  "fullName" : "test_scripts.test_add_product_to_cart.Test_product#test_add_product_to_cart_one",
+  "historyId" : "55b6d67b1404e7d00f3b7fb95938c433",
+  "time" : {
+    "start" : 1532772286066,
+    "stop" : 1532772300464,
+    "duration" : 14398
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1532772262587,
+      "stop" : 1532772286064,
+      "duration" : 23477
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "set_environment",
+    "time" : {
+      "start" : 1532772207621,
+      "stop" : 1532772207621,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicking on the Sign In button",
+      "time" : {
+        "start" : 1532772286161,
+        "stop" : 1532772295734,
+        "duration" : 9573
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Moving the mouse pointer on the element",
+        "time" : {
+          "start" : 1532772286260,
+          "stop" : 1532772288880,
+          "duration" : 2620
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.support.event_firing_webdriver.EventFiringWebElement object at 0x0A82EA30>"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Clicking on the drop down element",
+        "time" : {
+          "start" : 1532772288949,
+          "stop" : 1532772295734,
+          "duration" : 6785
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.support.event_firing_webdriver.EventFiringWebElement object at 0x0A82E270>"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Entering the contact number and clicking on the continue button",
+      "time" : {
+        "start" : 1532772295734,
+        "stop" : 1532772297482,
+        "duration" : 1748
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "contact_number_or_email_address",
+        "value" : "'8105892220'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Entering the password and clicking on the login button",
+      "time" : {
+        "start" : 1532772297483,
+        "stop" : 1532772300463,
+        "duration" : 2980
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'8105892220'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "setUp::teardown",
+    "time" : {
+      "start" : 1532772300481,
+      "stop" : 1532772302906,
+      "duration" : 2425
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "12720-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_add_product_to_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1ad269bdbd1ec924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532768739761,
+        "stop" : 1532768755854,
+        "duration" : 16093
+      }
+    }, {
+      "uid" : "bdfd4a41837333be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532757556831,
+        "stop" : 1532757570451,
+        "duration" : 13620
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cbf50d7574712a7d.json",
+  "parameterValues" : [ ]
+}

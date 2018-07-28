@@ -1,0 +1,31 @@
+[ {
+  "uid" : "e607a6cbc43e8502",
+  "name" : "test_add_product_to_cart_one",
+  "time" : {
+    "start" : 1532768739761,
+    "stop" : 1532768755854,
+    "duration" : 16093
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efe5491e6a969d3b",
+  "name" : "test_add_product_to_cart",
+  "time" : {
+    "start" : 1532768705040,
+    "stop" : 1532768721583,
+    "duration" : 16543
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "57b5b30a397e67cd",
+  "name" : "test_add_product_to_cart_two",
+  "time" : {
+    "start" : 1532768789540,
+    "stop" : 1532768803675,
+    "duration" : 14135
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
