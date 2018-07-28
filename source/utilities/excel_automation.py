@@ -13,3 +13,7 @@ def get_cell_value(file_path, sheetname, row_number, column_name):
     sheet = get_sheet(file_path, sheetname)
     value = sheet.loc[row_number][column_name]
     return str(value)
+
+
+def get_value():
+    pass
